@@ -6,7 +6,7 @@ import Backdrop from '../Backdrop/Backdrop';
 
 class Modal extends Component {
     shouldComponentUpdate(nextProps, nextState) {
-        return nextProps.show !== this.props.show //Increase perfomance, only updates if Modal shows
+        return nextProps.show !== this.props.show //Increase performance, only updates if Modal shows
     }
 
     componentWillUpdate () {
