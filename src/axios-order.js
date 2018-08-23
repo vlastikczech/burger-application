@@ -1,5 +1,5 @@
 import axios from 'axios';
-process.env.FIREBASE = 'https://react-my-burger-77982.firebaseio.com/';
+process.env.FIREBASE = '';
 
 const instance = axios.create ({
     baseURL: process.env.FIREBASE
